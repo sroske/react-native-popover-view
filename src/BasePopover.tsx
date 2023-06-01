@@ -201,7 +201,7 @@ export default class BasePopover extends Component<BasePopoverProps, BasePopover
           }
         });
       }
-    }, 100);
+    }, 0);
   }
 
   static getPolarity(): -1 | 1 {
